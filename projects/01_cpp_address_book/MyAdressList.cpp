@@ -18,8 +18,8 @@ struct Person
 //通讯录结构体
 struct Addressbooks
 {
-	struct Person personArray[MAX]; //通讯录中保存的联系人数组
-	int m_Size; //通讯录中人员个数
+	struct Person personArray[MAX];		//通讯录中保存的联系人数组
+	int m_Size;							 //通讯录中人员个数
 };
 
 //菜单界面
